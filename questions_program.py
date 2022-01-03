@@ -17,6 +17,14 @@ for q in list_questions:
 
 print("============================")
 
+print("Total question : {}\n".format(len(list_questions)))
+print("Questions : ")
+
+for q in list_questions:
+    print(q)
+
+print("============================")
+
 print("Answer : ")
 for a in answer:
     print(a)
